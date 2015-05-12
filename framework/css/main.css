@@ -9,21 +9,56 @@
     box-sizing: border-box;
 }
 
-@media only screen and (max-width: 400px) {
-     p {
-        background-color: blue;
-        }
+*{
+    font-family: 'Lato', sans-serif;
+    color: #747704;
 }
 
-.grid {
+#project {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#work-title {
+    padding-left: 30px;
+}
+
+#top-image {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#line{
+padding-left: 30px;
+padding-right: 30px;
+}
+
+#header-image {
+    padding-left: 30px;
+    padding-top: 22px;
+}
+
+#main-image {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#name {
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+/*.grid {
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
-}
+}*/
 
 .row {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     display: flex;
 }
 
