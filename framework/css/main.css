@@ -9,16 +9,14 @@
     box-sizing: border-box;
 }
 
-*{
+body{
     font-family: 'Lato', sans-serif;
     color: #12cc91;
 }
 
 #project {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 5px;
     text-align: center;
+    padding: 5px 30px 0px 30px;
 }
 
 #work-title {
@@ -30,9 +28,9 @@
     padding-top: 10px;
 }
 
-#line{
-padding-left: 30px;
-padding-right: 30px;
+#line {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #header-image {
@@ -48,6 +46,7 @@ padding-right: 30px;
 #name {
     padding-right: 30px;
     padding-top: 10px;
+    text-align: right;
 }
 
 /*.grid {
